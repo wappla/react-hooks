@@ -1,9 +1,7 @@
-<!-- Find and replace all 'npm-package-boilerplate' with the name of your package -->
-
-<h1 align="center">@wappla/npm-package-boilerplate</h1>
+<h1 align="center">@wappla/react-hooks</h1>
 <div align="center">
   
-[![GitHub release](https://img.shields.io/github/release/wappla/npm-package-boilerplate.svg?style=flat-square)](https://github.com/wappla/npm-package-boilerplate/releases/)  [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/npm-package-boilerplate/blob/master/LICENSE)  [![GitHub pull-requests](https://img.shields.io/github/issues-pr/wappla/npm-package-boilerplate.svg?style=flat-square)](https://GitHub.com/wappla/npm-package-boilerplate/pull/)  [![GitHub issues](https://img.shields.io/github/issues/wappla/npm-package-boilerplate.svg?style=flat-square)](https://GitHub.com/wappla/npm-package-boilerplate/issues/)
+[![GitHub release](https://img.shields.io/github/release/wappla/react-hooks.svg?style=flat-square)](https://github.com/wappla/react-hooks/releases/)  [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/react-hooks/blob/master/LICENSE)  [![GitHub pull-requests](https://img.shields.io/github/issues-pr/wappla/react-hooks.svg?style=flat-square)](https://GitHub.com/wappla/react-hooks/pull/)  [![GitHub issues](https://img.shields.io/github/issues/wappla/react-hooks.svg?style=flat-square)](https://GitHub.com/wappla/react-hooks/issues/)
   
 <sub>
     Built with ❤︎ by
@@ -30,19 +28,19 @@ One Paragraph of project description goes here
 
 ## Getting Started
 
-To get started, add `@wappla/npm-package-boilerplate` to your project:
+To get started, add `@wappla/react-hooks` to your project:
 
 Using npm:
 ```shell
-npm install --save @wappla/npm-package-boilerplate
+npm install --save @wappla/react-hooks
 ```
 
 Using yarn:
 ```shell
-yarn add @wappla/npm-package-boilerplate
+yarn add @wappla/react-hooks
 ```
 
-Please note that `@wappla/npm-package-boilerplate` requires `react@^16.12.0` as a peer dependency.
+Please note that `@wappla/react-hooks` requires `react@^16.12.0` as a peer dependency.
 
 ## Running the tests
 
@@ -58,11 +56,11 @@ npm run test
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/wappla/npm-package-boilerplate) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/wappla/react-hooks) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/wappla/npm-package-boilerplate/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/wappla/react-hooks/tags). 
 
 ## Authors
 
