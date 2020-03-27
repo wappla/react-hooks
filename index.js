@@ -1,3 +1,7 @@
-import index from './src/index'
+import useLatest from './src/useLatest'
+import useAsyncEffect from './src/useAsyncEffect'
 
-export default index
+export {
+    useLatest,
+    useAsyncEffect,
+}
