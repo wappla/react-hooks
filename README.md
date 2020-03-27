@@ -48,11 +48,11 @@ Please note that `@wappla/react-hooks` requires `react@^16.12.0` as a peer depen
 npm run test
 ```
 
-## Examples
-
-### Basic Usage
-
 ## API
+
+### useLatest
+
+### useAsyncEffect
 
 ## Contributing
 
