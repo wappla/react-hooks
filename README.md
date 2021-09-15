@@ -50,9 +50,21 @@ npm run test
 
 ## API
 
-### useLatest
-
 ### useAsyncEffect
+### useDebounce
+### useDebouncedCallback
+### useLatest
+### useOnClickOutside
+### useWindowSize
+Returns the size of the browser's window.
+```
+const {
+    innerWidth,
+    outerWidth,
+    innerHeight,
+    outerHeight,
+} = useWindowSize()
+```
 
 ## Contributing
 
