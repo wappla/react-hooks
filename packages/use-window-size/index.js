@@ -7,11 +7,11 @@ function getSize() {
         innerWidth: window.innerWidth,
         outerHeight: window.outerHeight,
         outerWidth: window.outerWidth,
-    };
+    }
 }
 
 function useWindowSize() {
-    let [windowSize, setWindowSize] = useState(getSize())
+    const [windowSize, setWindowSize] = useState(getSize())
 
     function handleResize() {
         setWindowSize(getSize())

@@ -1,0 +1,34 @@
+{
+    "name": "@dashdot/use-form-state",
+    "version": "0.0.1",
+    "description": "React hook for managing form and input state and form validation.",
+    "main": "./dist/cjs/index.js",
+    "types": "./dist/types/index.d.ts",
+    "exports": {
+        "import": "./dist/esm/index.js",
+        "require": "./dist/cjs/index.js",
+        "default": "./dist/cjs/index.js"
+    },
+    "scripts": {
+        "build": "tsc --project tsconfig.esm.json & tsc --project tsconfig.cjs.json",
+        "lint": "eslint .",
+        "test": "jest",
+        "test:coverage": "jest --coverage"
+    },
+    "dependencies": {
+        "dot-prop-immutable": "^2.1.0",
+        "lodash.clonedeep": "^4.5.0",
+        "use-deep-compare-effect": "^1.3.1"
+    },
+    "devDependencies": {
+        "@testing-library/jest-dom": "^5.5.0",
+        "@testing-library/react-hooks": "^3.2.1",
+        "@types/react": "^18.0.27",
+        "jest": "^25.3.0",
+        "tsconfig": "*",
+        "typescript": "^4.5.3"
+    },
+    "peerDependencies": {
+        "react": ">=16.12"
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+      "allowJs": true,
+      "allowSyntheticDefaultImports": true,
+      "declaration": true,
+      "esModuleInterop": true,
+      "moduleResolution": "Node",
+      "noImplicitAny": true,
+      "preserveConstEnums": true,
+      "removeComments": true,
+      "sourceMap": true
+  }
+}

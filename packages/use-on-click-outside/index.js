@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import useLatest from './useLatest'
+import useLatest from '@dashdot/use-latest'
 
 const MOUSEDOWN = 'mousedown'
 const TOUCHSTART = 'touchstart'
