@@ -1,90 +1,69 @@
-<h1 align="center">@wappla/react-hooks</h1>
-<div align="center">
-  
-[![GitHub release](https://img.shields.io/github/release/wappla/react-hooks.svg?style=flat-square)](https://github.com/wappla/react-hooks/releases/)  [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/react-hooks/blob/master/LICENSE)  [![GitHub pull-requests](https://img.shields.io/github/issues-pr/wappla/react-hooks.svg?style=flat-square)](https://GitHub.com/wappla/react-hooks/pull/)  [![GitHub issues](https://img.shields.io/github/issues/wappla/react-hooks.svg?style=flat-square)](https://GitHub.com/wappla/react-hooks/issues/)
-  
-<sub>
-    Built with ❤︎ by
-    <a href="#about-us">Wappla</a> and
-    <a href="https://github.com/wappla/use-form-state/graphs/contributors">
-    contributors
-    </a>
-</sub>
-</div>
+# Dashdot React Hooks
 
-<details>
-    <summary>Table of Contents</summary>
+This is an official Dashdot package.
 
-<!-- START doctoc -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-<!-- https://github.com/thlorenz/doctoc -->
-<!-- doctoc README.md --github -->
-<!-- END doctoc -->
+## What's inside?
 
-</details>
+This turborepo uses [npm](https://www.npmjs.com/) as a package manager. It includes the following packages:
 
-## Motivation
-One Paragraph of project description goes here
+### Packages
 
-## Getting Started
+- `tsconfig`: `tsconfig.json`s used throughout the monorepo
 
-To get started, add `@wappla/react-hooks` to your project:
+Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 
-Using npm:
-```shell
-npm install --save @wappla/react-hooks
+### Utilities
+
+This turborepo has some additional tools already setup for you:
+
+- [TypeScript](https://www.typescriptlang.org/) for static type checking
+- [ESLint](https://eslint.org/) for code linting
+- [Prettier](https://prettier.io) for code formatting
+
+### Build
+
+To build all apps and packages, run the following command:
+
+```
+cd react-hooks
+npm run build
 ```
 
-Using yarn:
-```shell
-yarn add @wappla/react-hooks
+### Develop
+
+To develop all apps and packages, run the following command:
+
+```
+cd react-hooks
+npm run dev
 ```
 
-Please note that `@wappla/react-hooks` requires `react@^16.12.0` as a peer dependency.
+### Remote Caching
 
-## Running the tests
+Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
 
-```shell
-npm run test
+By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
+
+```
+cd react-hooks
+npx turbo login
 ```
 
-## API
+This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
 
-### useAsyncEffect
-### useDebounce
-### useDebouncedCallback
-### useLatest
-### useOnClickOutside
-### useWindowSize
-Returns the size of the browser's window.
+Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your turborepo:
+
 ```
-const {
-    innerWidth,
-    outerWidth,
-    innerHeight,
-    outerHeight,
-} = useWindowSize()
+npx turbo link
 ```
 
-## Contributing
+## Useful Links
 
-Please read [CONTRIBUTING.md](https://github.com/wappla/react-hooks) for details on our code of conduct, and the process for submitting pull requests to us.
+Learn more about the power of Turborepo:
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/wappla/react-hooks/tags). 
-
-## Authors
-
-* **Sander Peeters** - *Initial work* - [Sander Peeters](https://github.com/SanderPeeters)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## About us
-
-[Wappla BVBA](https://www.wappla.com/)
-We shape, build and grow ambitious digital products.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/wappla/docs-general-base-templates/blob/master/LICENSE) file for details
+- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
+- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
+- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
+- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
+- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
+- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
